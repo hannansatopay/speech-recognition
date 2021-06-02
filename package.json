@@ -17,8 +17,9 @@
     "@capacitor/core": "latest"
   },
   "devDependencies": {
-    "@capacitor/android": "latest",
-    "@capacitor/ios": "latest",
+    "@capacitor/android": "3.0.0",
+    "@capacitor/core": "3.0.0",
+    "@capacitor/ios": "3.0.0",
     "husky": "^4.2.5",
     "np": "^6.2.4",
     "prettier": "^2.0.5",
@@ -26,6 +27,9 @@
     "pretty-quick": "^2.0.1",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.5"
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^3.0.0"
   },
   "husky": {
     "hooks": {
